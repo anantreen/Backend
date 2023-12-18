@@ -5,6 +5,8 @@ const server = http.createServer((req,res)=>{
         res.end("<h1> Base / Page </h1>");
     }else if(req.url === "/about"){
         res.end("<h1> About Page ~ Kitab Nation </h1>");
+    }else if(req.url === "/cart"){
+        res.end("<h1> Cart Page ~ Kitab Nation </h1>");
     }else if(req.url === "/contact"){
         res.end("<h1> Contact Page ~ Kitab Nation </h1>");
     }else if(req.url === "/login"){
