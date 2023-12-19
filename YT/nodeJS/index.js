@@ -1,6 +1,6 @@
 // const feature = require('./feature');
-import champakChacha,{crush2, crush3} from "./feature.js";
-console.log("1.",champakChacha,"2.",crush2,"3.",crush3);
+import * as objFeature from "./feature.js";
+console.log("1.",objFeature.crush1,"2.",objFeature.crush2,"3.",objFeature.crush3);
 
 // const http = require('http');
 import http from "http";
