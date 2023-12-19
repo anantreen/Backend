@@ -1,3 +1,6 @@
+const feature = require('./feature');
+console.log("1.",feature.crush1,"1.",feature.crush2,"1.",feature.crush3); 
+
 const http = require('http');
 const server = http.createServer((req,res)=>{
     console.log("server created");
@@ -15,6 +18,6 @@ const server = http.createServer((req,res)=>{
         res.end("<h1> Contact Page ~ Kitab Nation</h1>");
     }
 });
-server.listen(3000,()=>{
+server.listen(5000,()=>{
     console.log("listening on port");
 });
